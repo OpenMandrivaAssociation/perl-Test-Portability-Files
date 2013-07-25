@@ -1,2 +1,4 @@
+removed_sources:
+  Test-Portability-Files-0.05.tar.gz: ce6c99ed04f4239130efb395b53161d0112adb9f
 sources:
-  "Test-Portability-Files-0.05.tar.gz": ce6c99ed04f4239130efb395b53161d0112adb9f
+  Test-Portability-Files-0.06.tar.gz: d05338eee158b2749bf4a066b98be5f74a6bb0e8

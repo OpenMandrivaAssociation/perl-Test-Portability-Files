@@ -1,15 +1,15 @@
 %define upstream_name    Test-Portability-Files
-%define upstream_version 0.05
+%define upstream_version 0.06
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.06
+Release:	1
 
 Summary:	Check file names portability
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Portability-Files-0.06.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Basename)
@@ -64,3 +64,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Mar 27 2010 cpan2dist 0.05-1mdv
 - initial mdv release, generated with cpan2dist
+
