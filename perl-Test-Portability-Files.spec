@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.06
-Release:	2
+Release:	3
 
 Summary:	Check file names portability
 License:	GPL+ or Artistic
