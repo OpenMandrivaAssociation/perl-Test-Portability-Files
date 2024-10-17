@@ -8,7 +8,7 @@ Release:	3
 Summary:	Check file names portability
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-Portability-Files-0.06.tar.gz
 
 BuildRequires:	perl-devel
