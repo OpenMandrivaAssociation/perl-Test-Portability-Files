@@ -1,15 +1,15 @@
 %define upstream_name    Test-Portability-Files
-%define upstream_version 0.06
+%define upstream_version 0.10
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.06
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Check file names portability
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-Portability-Files-0.06.tar.gz
+Url:		https://github.com/abraxxa/Test-Portability-Files
+Source0:	https://cpan.metacpan.org/authors/id/A/AB/ABRAXXA/Test-Portability-Files-0.10.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
