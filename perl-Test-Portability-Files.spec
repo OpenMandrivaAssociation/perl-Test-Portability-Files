@@ -1,9 +1,7 @@
 %define upstream_name    Test-Portability-Files
-%define upstream_version 0.10
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.10
+Release:	2
 
 Summary:	Check file names portability
 License:	GPL+ or Artistic
@@ -36,7 +34,7 @@ platforms (like MS-DOS) seem to be no longer supported. Here are the
 default options:
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
