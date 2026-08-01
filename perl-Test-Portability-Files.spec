@@ -2,7 +2,7 @@
 %define upstream_version 0.10
 Name:		perl-%{upstream_name}
 Version:	0.10
-Release:	3
+Release:	4
 
 Summary:	Check file names portability
 License:	GPL+ or Artistic
@@ -51,7 +51,7 @@ make test || :
 %makeinstall_std
 
 %files
-%doc Changes LICENSE META.yml README
+%doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
